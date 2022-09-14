@@ -18,3 +18,8 @@ pom.xml.asc
 \.idea/
 
 scraps\.txt
+
+.calva
+.clj-kondo
+.lsp
+.cpcache

@@ -1,0 +1,11 @@
+{:paths ["src" "resources" "sandboxes"]
+ :deps
+ {org.clojure/algo.generic {:mvn/version "0.1.2"}
+  joda-time/joda-time {:mvn/version "2.9.9"}}
+
+ :aliases
+ {:dev {:extra-paths ["dev"]
+        :extra-deps {org.clojure/tools.namespace {:mvn/version "1.0.0"}}}
+
+  :test {:extra-paths ["test"]
+         :extra-deps {midje/midje {:mvn/version "1.10.5"}}}}}
